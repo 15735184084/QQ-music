@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            height: 200px;
+            width: 200px ;
+            /*border: 1px solid red;*/
+            margin: 100px;
+            /*background-color: red;*/
+            overflow: hidden;
+        }
+        @keyframes play {
+            100%{
+                transform: rotate(360deg);
+            }
+
+
+
+
+         }
+        .sub{
+            height: 200px;
+            width: 200px;
+            background-image: url(../图片/20180729_eae10d73c4f9a73264d1ef308ca72561_mwpm_03200403.jpg);
+            background-position: center;
+            background-size: cover;
+            border-radius: 50%;
+            /*transform: rotate(20deg);*/
+            transition: all  2s linear;
+        }
+
+        .sub:hover{
+            /*background-color:orange ;*/
+            /*transform: rotate(360deg);*/
+            /*height: 100px;*/
+            /*width: 100px;*/
+            animation:play 4s linear infinite;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="sub"></div>
+</div>
+</body>
+</html>

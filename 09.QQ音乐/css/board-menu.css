@@ -1,0 +1,28 @@
+#menu{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.menu-top{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.menu-top-1{
+    height: 250px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.menu-bottom{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-flow:row wrap;
+}
+.menu-bottom1{
+    height: 150px;
+    flex: 1;
+}

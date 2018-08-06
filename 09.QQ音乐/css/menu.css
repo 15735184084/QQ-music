@@ -1,0 +1,78 @@
+#menu{
+    height: 50px;
+    width: 100%;
+    background-color:#3c8052;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.photo{
+    height: 35px;
+    width: 35px;
+    background-image: url(../../图片/20180729_5ca96647eb00bbdf520451bbfe78087e_mwpm_03200403.jpg);
+    background-size:  cover;
+    background-position: center;
+    border-radius: 50%;
+    /*position: absolute;*/
+    /*lift: 1px;*/
+    margin: 5px;
+    }
+.name{
+    height: 50px;
+    flex:1 ;
+    justify-content: flex-start;
+    flex-flow: column;
+
+}
+.name-top{
+    height: 30px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 14px;
+}
+.name-bottom{
+    height: 20px;
+    justify-content: flex-start;
+    align-items: start;
+    color: #8a8a8a;
+    font-size: 12px;
+}
+@keyframes play {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.photo:hover{
+    animation: play 4s linear infinite;
+}
+.list{
+    height:50px;
+    width: 50px;
+    justify-content: start;
+
+}
+.switch{
+    height: 50px;
+    width: 50px;
+    justify-content: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

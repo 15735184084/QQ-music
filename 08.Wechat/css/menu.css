@@ -1,0 +1,46 @@
+#menu{
+    height: 40px;
+    width: 100%;
+    background-color:whitesmoke;
+    display: flex;
+}
+
+#menu-one{
+    height: 40px;
+    width: 40px;
+    justify-items:flex-start ;
+    background-image: url(../../图片/语音.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+#menu-two{
+    flex: 1;
+    display: flex;
+
+}
+#menu-three{
+    height: 40px;
+    width: 40px;
+    justify-items: flex-end;
+    background-image: url(../../图片/笑脸.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+#menu-four{
+    height: 40px;
+    width: 40px;
+    justify-items: flex-end;
+    background-image: url(../../图片/加号.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+#menu-small{
+    height: 30px;
+    width: 98%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    opacity: .7;
+}

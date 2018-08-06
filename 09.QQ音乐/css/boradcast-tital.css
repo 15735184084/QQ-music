@@ -1,0 +1,68 @@
+#tital{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    align-content: center;
+    flex-flow: column;
+}
+.tital-top{
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+.tital-top-left{
+    height: 80px;
+    width: 80px;
+}
+.tital-top-center{
+    height: 80px;
+    flex: 1;
+    font-size: 35px;
+}
+.tital-bottom{
+    height: 40px;
+    width: 100%;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+#tital{
+    height: 80px;
+    width: 100%;
+    background-color:#3c8052 ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    flex-flow: column;
+
+
+}
+.tital-top{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.option{
+    height: 40px;
+    width: 50px;
+
+    flex-flow: row wrap;
+    display: flex;
+
+
+
+}
+.my{
+    height: 40px;
+    width: 90px;
+    justify-content: flex-end;
+}
+.music-house{
+    height: 40px;
+    flex: 1;
+
+
+}
+.discover{
+    height: 40px;
+    width: 90px;
+    justify-content: flex-start;
+}
+.add{
+    height: 40px;
+    width: 50px;
+    justify-content: flex-end;
+    background-image: url(../../图片/加号.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.linear{
+    height: 2px;
+    width: 30px;
+    background-color: white}
+
+.tital-bottom{
+    height: 40px;
+    width: 100%;
+
+}
+#search{
+    height: 20px;
+    width: 96%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 1px gray;
+    font-size: 14px;
+    color: #8a8a8a;
+    border: gray 1px solid;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

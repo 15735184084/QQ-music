@@ -1,0 +1,14 @@
+#container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../图片/t015cd1e01d589adbca.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+}

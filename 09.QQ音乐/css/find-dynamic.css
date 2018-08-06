@@ -1,0 +1,219 @@
+#dynamic{
+    width: 100%;
+    flex:1;
+    background-color:whitesmoke;
+    overflow: scroll;
+    flex-flow:column wrap;
+    align-items: flex-start;
+
+}
+
+.poster{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    background-image: url(../../图片/微信图片_20180805124731_meitu_1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.vessel{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    overflow: scroll;
+    border-bottom: 0.1px solid gray;
+    /*flex-flow: row;*/
+    box-shadow: 0px 0px .5px 0px;
+}
+.vessel1{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    flex-flow: column wrap;
+}
+#vessell1-sub{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url(../../图片/20180729_5ca96647eb00bbdf520451bbfe78087e_mwpm_03200403.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#vessell2-sub{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url(../../图片/20180730_7ba1d65995d22c832301528d8f623736_mwpm_03200403.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#vessell3-sub{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url(../../图片/20180729_7540677951bd9f060cf663c82f0e9ae2_mwpm_03200403.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#vessell4-sub{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url(../../图片/20180729_44718974106d5730a6fe98f475c06ae4_mwpm_03200403.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#vessell5-sub{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url(../../图片/微信图片_20180804124112.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.share{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.share-top{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-flow:row wrap;
+}
+.stare-bottom{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 5px;
+}
+.share-top-lift{
+    height: 80px;
+    width: 50px;
+    display: flex;
+}
+.share-top-center{
+    height: 80px;
+    width: 80px;
+}
+.share-top-right{
+    height: 80px;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 10px;
+}
+.share-top-sub{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-image: url(../../图片/微信图片_20180804124112.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.last{
+    height: 220px;
+    width: 100% ;
+    display: flex;
+}
+.last-sub{
+    height: 98%;
+    width: 98%;
+    background-image: url(../../图片/微信图片_20180805205006_meitu_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,548 @@
+#dynamic{
+    width: 100%;
+    flex:1;
+    background-color:whitesmoke;
+    overflow: scroll;
+    flex-flow:column wrap;
+    align-items: flex-start;
+
+}
+.box{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    border-bottom: 0.1px solid gray;
+    flex-flow: row;
+    box-shadow: 0px 0px .5px 0px;
+}
+.box-start{
+    height : 100px;
+    flex: 1;
+    font-size: 14px;
+    flex-flow: column;
+}
+.box-center{
+    height: 40px;
+    width: 2px;
+    background-color: gray;
+    justify-content: center;
+}
+.box-end{
+    height: 100px;
+    flex: 1;
+    flex-flow: column;
+    font-size: 14px;
+}
+.active-center{
+    display: flex;
+    height:60px ;
+    width: 100%;
+    /*align-items: end;*/
+    justify-content:center;
+    align-items: flex-end;
+}
+.music-time{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    color: #8a8a8a;
+    justify-content:center;
+    align-items: center;
+    font-size: 12px;
+}
+.VIP-center{
+    display: flex;
+    height:60px ;
+    width: 100%;
+    /*align-items: end;*/
+    justify-content:center;
+    align-items: flex-end;
+}
+.DTS{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    color: #8a8a8a;
+    justify-content:center;
+    align-items: center;
+    font-size: 12px;
+}
+.Box{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.Box-top{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+    #all-music {
+        height: 90px;
+        flex: 1;
+    }
+    #load-music {
+        height: 100px;
+        flex: 1;
+    }
+    #play-music {
+        height: 100px;
+        flex: 1;
+    }
+    .Box-bottom{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+    }
+
+    #love-music {
+        height: 100px;
+        flex: 1;
+    }
+    #buy-music{
+        height: 100px;
+        flex: 1;
+    }
+    #run-audio{
+        height: 100px;
+        flex: 1;
+    }
+.fond1 {
+    height: 50px;
+    width: 100%;
+    /*justify-content: flex-end;*/
+    /*align-items: flex-end;*/
+}
+.fond2 {
+    height: 20px;
+    width: 100%;
+    font-size: 16px;
+
+
+}
+.fond3 {
+    height: 20px;
+    width: 100%;
+    font-size: 12px;
+    color: #8a8a8a;
+}
+.song-menu{
+    height: 80px;
+    width: 100%;
+    display:flex;
+    flex-flow: row;
+
+
+}
+.song-menu-left{
+    height : 50px;
+    flex: 1;
+    font-size: 16px;
+    /*flex-flow: column;*/
+    display: flex;
+    justify-content: flex-end;
+    /*align-items:flex-end;*/
+    align-items: center;
+
+}
+.song-menu-center{
+    height: 20px;
+    width: 2px;
+    background-color: gray;
+    /*!*display:flex;*!*/
+
+    align-items:center;
+    /*justify-content: center;*/
+
+
+    /*align-items:flex-end;*/
+
+}
+.song-menu-right{
+    height : 50px;
+    flex: 1;
+    font-size: 16px;
+    /*flex-flow: column;*/
+    display: flex;
+    justify-content: flex-start;
+    /*align-items:flex-end;*/
+    align-items: center;
+    color: #8a8a8a;
+}
+.menu-quantity{
+    height: 30px;
+    width: 100%;
+    flex-flow: row wrap;
+    display: flex;
+}
+.quantity-lift{
+    height: 30px;
+    flex: 1;
+    font-size: 12px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.quantity-center{
+    height: 30px;
+    width: 30px;
+    justify-content: flex-end;
+}
+.quantity-right{
+    height: 30px;
+    width: 60px;
+    justify-content: center;
+}
+.singer-one{
+    height: 60px;
+    width: 100%;
+    flex-flow:row ;
+    display: flex;
+}
+.singer-one-left{
+    height: 50px;
+    width: 50px;
+    /*background-image: url("../../图片/微信图片_20180803213027.jpg");*/
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-start;
+}
+.singer-one-center{
+    height: 50px;
+    flex-flow: column;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+.song-name{
+    height: 35px;
+    flex: 1;
+    font-size: 16px;
+}
+.song-singer{
+    height: 15px;
+    flex:1;
+    font-size: 14px;
+    color: #8a8a8a;
+}
+.singer-one-right{
+    height: 50px;
+    width: 40px;
+
+}
+.poster{
+    height: 145px;
+    width: 100%;
+    display: flex;
+    background-image: url(../../图片/微信图片_20180804100800_meitu_1.png);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.option-box{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    border-bottom: 0.1px solid gray;
+    flex-flow: row wrap;
+    box-shadow: 0px 0px .5px 0px;
+}
+.singer{
+    height: 80px;
+    flex: 1;
+}
+.ranking{
+    height: 80px;
+    flex: 1;
+}
+.Taxonomy{
+    height: 80px;
+    flex: 1;
+}
+.radio-station{
+    height: 80px;
+    flex: 1;
+}
+.vidio{
+    height: 80px;
+    flex: 1;
+}
+.poster-1{
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 16px;
+}
+.poster-2{
+    height: 40px;
+    width: 100%;
+    align-items: flex-start;
+}
+.character{
+    height: 180px;
+    width: 100%;
+    flex-flow: row wrap;
+    display: flex;
+}
+.character-left{
+    height: 180px;
+    width: 160px;
+    flex-flow: row wrap;
+    display: flex;
+}
+.font1{
+    height: 30px;
+    width: 30px;
+}
+.font2{
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    align-items: flex-end;
+}
+.character-right{
+    height: 180px;
+    flex: 1px;
+}
+.character-left-sub{
+    height: 150px;
+    width: 150px;
+    background-image: url(../../图片/微信图片_20180804124112.jpg);
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+.character-right-top{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+.character-right-bottom{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.new-song-1{
+    height: 75px;
+    flex: 1;
+    justify-content: start;
+    align-items:end;
+    /*box-shadow: #8a8a8a 0px 0px 1px 1px;*/
+    background-color: rgba(100,100,100,.1);
+}
+.new-song-2{
+    height: 75px;
+    width: 75px;
+    background-image: url(../../图片/洛天依.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.new-song-1-1{
+    height: 35.5px;
+    width: 100%;
+    font-size: 16px;
+    align-items: center;
+}
+.new-song-1-2{
+    height: 35.5px;
+    width: 100%;
+    font-size: 12px;
+    color: #8a8a8a;
+    align-items: flex-start;
+}
+.new-song-3{
+    height: 75px;
+    width: 75px;
+    background-image: url(../../图片/u=918850643,3066737818&fm=27&gp=0.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.recommend{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.recommend-lift{
+    height: 60px;
+    flex: 1;
+    font-size: 20px;
+}
+.recommend-right{
+    height: 60px;
+    width: 60px;
+}
+.star-singer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.star-sub{
+    height: 130px;
+    width: 100%;
+    display: flex;
+}
+
+.star-sub-sub{
+    height: 130px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.star-photo{
+    height: 110px;
+    width: 110px;
+    justify-content:center;
+    align-items: flex-end;
+    display: flex;
+}
+#star-photo-real1 {
+    height: 110px;
+    width: 110px;
+    background-image: url(../../图片/20180729_5ca96647eb00bbdf520451bbfe78087e_mwpm_03200403.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.number{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.number-lift{
+    height: 30px;
+    flex: 1;
+    font-size: 8px;
+    color: white;
+
+}
+.number-right{
+    height: 30px;
+    width: 30px;
+}
+.star-bottom{
+    height: 20px;
+    width: 100%;
+    font-size: 12px;
+}
+#star-photo-real2{
+    height: 110px;
+    width: 110px;
+    background-image: url(../../图片/微信图片_20180804184638.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
